@@ -102,7 +102,7 @@ export function Services() {
           </h2>
           <p className="mt-4 text-pretty text-muted">
             Browse by category and tap to book the treatment you fancy straight
-            on WhatsApp. Prices shown are a guide — just ask for the full list.
+            on WhatsApp. Prices shown are a guide - just ask for the full list.
           </p>
           <LeafDivider className="mt-7" />
         </Reveal>

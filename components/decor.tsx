@@ -40,7 +40,7 @@ export function Leaf({ className }: { className?: string }) {
   );
 }
 
-/** Thin divider with a centred leaf — separates sections elegantly. */
+/** Thin divider with a centred leaf - separates sections elegantly. */
 export function LeafDivider({ className }: { className?: string }) {
   return (
     <div className={cn("flex items-center justify-center gap-4", className)}>

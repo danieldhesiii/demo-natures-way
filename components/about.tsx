@@ -20,13 +20,13 @@ const values = [
   {
     icon: Sparkles,
     title: "Decades of skill",
-    text: "Qualified experts — some with 30+ years — at honest, reasonable prices.",
+    text: "Qualified experts - some with 30+ years - at honest, reasonable prices.",
   },
 ];
 
 export function About() {
   return (
-    <section id="about" className="relative scroll-mt-24 bg-forest py-24 text-cream sm:py-32">
+    <section id="about" className="relative scroll-mt-24 overflow-hidden bg-forest py-24 text-cream sm:py-32">
       <Leaf className="pointer-events-none absolute right-6 top-10 hidden h-40 w-40 text-cream/5 lg:block" />
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-2">
         <Reveal>
@@ -62,7 +62,7 @@ export function About() {
             <p className="mt-6 text-pretty leading-relaxed text-cream/80">
               Since {site.established}, Nature&apos;s Way has been a much-loved
               part of {site.town}. What began as a small salon has grown into a
-              trusted name for beauty and wellbeing — built on caring, personal
+              trusted name for beauty and wellbeing - built on caring, personal
               service and a passion for helping people look and feel their best.
             </p>
             <p className="mt-4 text-pretty leading-relaxed text-cream/80">

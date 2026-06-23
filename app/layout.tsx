@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 
@@ -42,6 +42,13 @@ export const metadata: Metadata = {
     siteName: "Nature's Way Beauty Salon",
   },
   icons: { icon: "/favicon.svg" },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#2f4738",
 };
 
 export default function RootLayout({

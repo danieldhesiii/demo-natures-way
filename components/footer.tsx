@@ -29,7 +29,7 @@ export function Footer() {
             </div>
             <p className="mt-5 max-w-sm text-pretty text-sm leading-relaxed text-cream/60">
               {site.town}&apos;s loved beauty salon since {site.established}.
-              Expert nails, facials, waxing, massage and more — the natural way.
+              Expert nails, facials, waxing, massage and more - the natural way.
             </p>
             <div className="mt-6 flex gap-3">
               <a

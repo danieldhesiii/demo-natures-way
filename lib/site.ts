@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------------
    Single source of truth for all editable content.
-   Swap photos, prices, phone numbers and copy here — nothing else.
+   Swap photos, prices, phone numbers and copy here - nothing else.
 -------------------------------------------------------------------*/
 
 export const site = {
@@ -33,12 +33,12 @@ export const site = {
 
   // --- Opening hours (TODO: confirm with client) -------------------
   hours: [
-    { day: "Monday", time: "9:00 – 17:30" },
-    { day: "Tuesday", time: "9:00 – 17:30" },
-    { day: "Wednesday", time: "9:00 – 17:30" },
-    { day: "Thursday", time: "9:00 – 19:00" },
-    { day: "Friday", time: "9:00 – 17:30" },
-    { day: "Saturday", time: "9:00 – 16:00" },
+    { day: "Monday", time: "9:00 - 17:30" },
+    { day: "Tuesday", time: "9:00 - 17:30" },
+    { day: "Wednesday", time: "9:00 - 17:30" },
+    { day: "Thursday", time: "9:00 - 19:00" },
+    { day: "Friday", time: "9:00 - 17:30" },
+    { day: "Saturday", time: "9:00 - 16:00" },
     { day: "Sunday", time: "Closed" },
   ],
 } as const;
@@ -49,7 +49,7 @@ export function waLink(message?: string) {
 }
 
 // -------------------------------------------------------------------
-// Service categories. Prices are placeholders ("From £xx") — update
+// Service categories. Prices are placeholders ("From £xx") - update
 // each `from` value with the salon's real price list.
 // -------------------------------------------------------------------
 export type Treatment = { name: string; from: string; note?: string };
@@ -66,7 +66,7 @@ export const services: ServiceCategory[] = [
   {
     id: "nails",
     title: "Nails",
-    blurb: "Flawless hands and feet — from a natural tidy-up to long-lasting gel and statement nail art.",
+    blurb: "Flawless hands and feet - from a natural tidy-up to long-lasting gel and statement nail art.",
     icon: "Sparkles",
     image:
       "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&q=80&auto=format&fit=crop",
@@ -81,7 +81,7 @@ export const services: ServiceCategory[] = [
   {
     id: "facials",
     title: "Facials & Skincare",
-    blurb: "Tailored facials that cleanse, renew and glow — using techniques refined over three decades.",
+    blurb: "Tailored facials that cleanse, renew and glow - using techniques refined over three decades.",
     icon: "Leaf",
     image:
       "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&q=80&auto=format&fit=crop",
@@ -151,7 +151,7 @@ export const services: ServiceCategory[] = [
 ];
 
 // -------------------------------------------------------------------
-// Gallery — placeholder imagery. Replace each `src` with photos from
+// Gallery - placeholder imagery. Replace each `src` with photos from
 // the salon's Facebook / Instagram. Keep a mix of tall & wide.
 // -------------------------------------------------------------------
 export type GalleryItem = { src: string; alt: string; span?: "tall" | "wide" };
@@ -171,7 +171,7 @@ export const gallery: GalleryItem[] = [
 export const testimonials = [
   {
     quote:
-      "I've been coming here for years and wouldn't go anywhere else. The staff are so caring and professional — I always leave feeling wonderful.",
+      "I've been coming here for years and wouldn't go anywhere else. The staff are so caring and professional - I always leave feeling wonderful.",
     name: "Sarah H.",
     detail: "Facials & Massage",
   },
@@ -183,7 +183,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Reasonable prices and genuine expertise. You can tell they've been doing this for decades — nothing is ever too much trouble.",
+      "Reasonable prices and genuine expertise. You can tell they've been doing this for decades - nothing is ever too much trouble.",
     name: "Megan L.",
     detail: "Waxing & Brows",
   },

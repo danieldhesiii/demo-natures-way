@@ -24,7 +24,7 @@ export function Testimonials() {
           {row.map((t, i) => (
             <figure
               key={i}
-              className="flex w-[22rem] shrink-0 flex-col rounded-3xl border border-forest/10 bg-cream-soft p-7 shadow-sm"
+              className="flex w-[85vw] max-w-[22rem] shrink-0 flex-col rounded-3xl border border-forest/10 bg-cream-soft p-6 shadow-sm sm:w-[22rem] sm:p-7"
             >
               <div className="flex items-center justify-between">
                 <Quote className="h-8 w-8 text-gold/40" />

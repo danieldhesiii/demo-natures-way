@@ -26,7 +26,7 @@ export function Visit() {
           </h2>
           <p className="mt-4 text-pretty text-muted">
             Right in the heart of {site.town}. Pop in, call, or message us on
-            WhatsApp — whichever is easiest for you.
+            WhatsApp - whichever is easiest for you.
           </p>
           <LeafDivider className="mt-7" />
         </Reveal>
@@ -93,11 +93,11 @@ export function Visit() {
                 })}
               </dl>
               <p className="mt-3 text-xs text-muted">
-                Hours shown are a guide — please confirm when booking.
+                Hours shown are a guide - please confirm when booking.
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <a
                 href={waLink(`Hi ${site.name}, I'd like to book an appointment.`)}
                 target="_blank"

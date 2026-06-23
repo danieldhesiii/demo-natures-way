@@ -50,7 +50,7 @@ export function WhatsAppFab() {
                 </button>
                 <p className="font-semibold">Hi there! 👋</p>
                 <p className="mt-0.5 text-muted">
-                  Message us to book — we usually reply quickly.
+                  Message us to book - we usually reply quickly.
                 </p>
               </motion.div>
             )}

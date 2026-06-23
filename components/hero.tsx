@@ -50,7 +50,10 @@ export function Hero() {
           >
             Beauty,
             <br />
-            the <span className="gold-text font-semibold italic">natural</span>{" "}
+            the{" "}
+            <span className="gold-text inline-block pr-[0.12em] font-semibold italic">
+              natural
+            </span>{" "}
             way.
           </motion.h1>
 
@@ -60,7 +63,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.18, ease }}
             className="mx-auto mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted sm:text-lg lg:mx-0"
           >
-            Nails, facials, waxing, massage and more — delivered by therapists
+            Nails, facials, waxing, massage and more - delivered by therapists
             with decades of experience, in {site.town}&apos;s warmest little
             salon. Relax, refresh, and leave glowing.
           </motion.p>

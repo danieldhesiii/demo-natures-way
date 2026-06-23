@@ -52,7 +52,7 @@ export function Gallery() {
             A peek inside the salon
           </h2>
           <p className="mt-4 text-pretty text-muted">
-            Real moments, treatments and results — straight from our socials.
+            Real moments, treatments and results - straight from our socials.
             Tap any photo to take a closer look.
           </p>
           <LeafDivider className="mt-7" />
